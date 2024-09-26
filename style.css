@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1d1d1d;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 375px; /* Ensuring the 375px mobile view */
+    margin: 0 auto;
+  }
+  
+  /* Header styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1.5rem;
+  }
+  
+  .menu-icon span {
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    background-color: white;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .hero-section h1 {
+    color: #ff7a00;
+    font-family: 'Crete Round', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 80px;
+  }
+  
+  .hero-section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .hero-section p {
+    color: #c4c4c4;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    margin-top: 10px;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 18px;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .social-icons i:hover {
+    color: #ff7a00;
+  }
+  
+  /* Decorative structure */
+  .bottom-right-structure {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    left: 820.1px;
+  }
+  
